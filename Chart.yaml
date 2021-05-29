@@ -14,7 +14,7 @@ type: application
 appVersion: "2.0.1"
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
-version: 0.0.1
+version: 0.0.2
 name: psitransfer
 description: "Simple open source self-hosted file sharing solution"
 keywords:
@@ -31,7 +31,7 @@ maintainers:
     email: helm@gavinmogan.com
 annotations:
   artifacthub.io/changes: |
-    - Initial Version
+    - Add config for upload pass
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: psitransfer

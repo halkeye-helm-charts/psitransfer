@@ -54,6 +54,8 @@ probes:
 config:
   ## config.adminPass - Admin Password (Required)
   adminPass: ''
+  ## config.uploadPass - Password required for uploads (Optional)
+  uploadPass:
 
 initContainer:
   enabled: true
